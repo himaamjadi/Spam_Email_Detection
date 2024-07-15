@@ -28,14 +28,12 @@ This project aims to classify emails as spam or ham (not spam) using machine lea
 
 ### 1. Install Dependencies
 
-```bash
 !pip install pandas scikit-learn
 
 ### 2. Set Up Kaggle API
 Upload kaggle.json with your Kaggle API credentials.
 
 ### 3. Download and Unzip Dataset
-```bash
 !kaggle datasets download -d uciml/sms-spam-collection-dataset
 !unzip sms-spam-collection-dataset.zip
 
